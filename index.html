@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $('.slider').bxSlider();
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <h1 class="logo-text"><span class="logo-text--orange">Moja</span>Austria</h1>
+                </div>
+                <div class="header__search">
+                    <input class="search--input" type="text" value="Поиск по сайту" onfocus="if (this.value == 'Поиск по сайту') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Поиск по сайту';}">
+                    <button class="search--img">
+                        <img src="Лупа.png" alt="search">
+                    </button>
+                </div>
+            </div> 
+            <div class="header__slider">
+                <div class="slider">
+                    <div>
+                        <img src="slider.png" alt="slider" width="100%">
+                    </div>
+                    <div>
+                        <img src="slider.png" alt="slider" width="100%">
+                    </div>
+                    <div>
+                        <img src="slider.png" alt="slider" width="100%">
+                    </div>
+                </div>  
+            </div>           
+        </div>
+    </header>
+</body>
+</html>

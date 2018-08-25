@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Myriad Pro Italic';
+    src: url('MyriadPro-It.eot');
+    src: url('MyriadPro-It.eot?#iefix') format('embedded-opentype'),
+    url('MyriadPro-It.woff') format('woff'),
+    url('MyriadPro-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.clearfix::after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    border-top: 4px solid #e3e3e3;
+    
+}
+
+.header__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.header__logo {
+    width: 258px;
+    padding: 14px 0 0 57px;
+    font-family: MyriadPro-It;
+    font-weight: bold;
+    font-size: 36pt;
+}
+
+.logo-text {
+    color: #95c443;
+}
+
+.logo-text--orange {
+    color: #fd7d10;
+}
+
+.header__search {
+    width: 220px;
+    padding: 0 22px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search--input {
+    box-sizing: border-box;
+    width: 171px;
+    height: 27px;
+    padding-left: 13px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #e4e2e0;
+    outline: 0 !important;
+    color: #b5b5b5;
+}
+
+.search--img {
+    width: 45px;
+    height: 27px;
+    background-color: #f4f3f3;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #e4e2e0;
+    border-left: none;
+    outline: 0 !important;
+    cursor: pointer;
+}
+
+.search--img:hover {
+    background-color: #e4e2e0;
+}
+
+.header__slider {
+    padding: 0 22px 0 25px;
+}
+
+.bx-wrapper {
+    width:698px;
+    height: 238px;
+}
