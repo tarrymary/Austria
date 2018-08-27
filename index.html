@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
-    <script>
-        $(document).ready(function(){
-        $('.slider').bxSlider();
-        });
-    </script>
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="content.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" href="bxslider-4-4.2.12/dist/jquery.bxslider.css">
+    <script src="bxslider-4-4.2.12/docs_src/assets/vendors/jquery.min.js"></script>
+    <script src="bxslider-4-4.2.12/dist/jquery.bxslider.min.js"></script>
 </head>
 <body>
     <header>
@@ -33,16 +29,310 @@
                 <div class="slider">
                     <div>
                         <img src="slider.png" alt="slider" width="100%">
+                        <div class="slider-text">
+                            <div class="slider-text__text">
+                                <p>Сайт для тех, кто планирует жить в Австрии, или хочет поближе познакомиться с этой страной</p>
+                            </div>
+                            <div class="slider-text__bullets"></div>
+                        </div> 
                     </div>
                     <div>
                         <img src="slider.png" alt="slider" width="100%">
+                        <div class="slider-text">
+                            <div class="slider-text__text">
+                                <p>Сайт для тех, кто планирует жить в Австрии, или хочет поближе познакомиться с этой страной</p>
+                            </div>
+                            <div class="slider-text__bullets"></div>
+                        </div> 
                     </div>
                     <div>
                         <img src="slider.png" alt="slider" width="100%">
+                        <div class="slider-text">
+                            <div class="slider-text__text">
+                                <p>Сайт для тех, кто планирует жить в Австрии, или хочет поближе познакомиться с этой страной</p>
+                            </div>
+                            <div class="slider-text__bullets"></div>
+                        </div> 
                     </div>
-                </div>  
+                </div>
+                <div class="header__slider--right">
+                    <div class="slider--right__phone-number">
+                        <p>Телефон</p>
+                        <h1>+356 (0)6 601 530</h1>
+                    </div>
+                    <div class="slider--right__time">
+                        <p>Время работы:</p>
+                        <p>пн-пт с 9:00 до 20:00</p>
+                        <p><span class="p--orange">сб-вс</span> с 9:00 до 18:00</p>
+                    </div>
+                    <div class="slider--right__button-block">
+                        <button class="button-block__button">
+                            <p>Связаться с нами</p>
+                            <img src="button.png" alt="далее">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu">
+                    <ul class="header-menu__list">
+                        <li class="header-menu__item"><a class="header-menu__link" href="#home">Главная</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="#aboutus">О компании</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="#services">Услуги</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="#pricing">Цены</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="#work">Вакансии</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="#articles">Статьи</a></li>
+                        <li class="header-menu__item"><a class="header-menu__link" href="#contact">Контакты</a></li>
+                    </ul>
             </div>           
         </div>
     </header>
+    <section>
+        <div class="container" style="border: none">
+            <div class="content">
+                <div class="content-left">
+                    <div class="facts">
+                        <div class="facts__item">
+                            <img src="пути.png" alt="ways">
+                            <p class="facts__item__text">Пути иммиграции в Австрию</p>
+                        </div>
+                        <div class="facts__item">
+                            <img src="дом.png" alt="house">
+                            <p class="facts__item__text">Покупка и аренда недвижимости</p>
+                        </div>
+                        <div class="facts__item">
+                            <img src="inf.png" alt="info">
+                            <p class="facts__item__text">Полезная информация</p>
+                        </div>
+                        <div class="facts__item">
+                            <img src="герб.png" alt="about">
+                            <p class="facts__item__text">Об Австрии</p>
+                        </div>
+                        <div class="facts__item">
+                            <img src="книга.png" alt="book">
+                            <p class="facts__item__text">Изучаем немецкий язык</p>
+                        </div>
+                        <div class="facts__item">
+                            <img src="книга копия.png" alt="copy">
+                            <p class="facts__item__text">Как добраться в Австрию, визы</p>
+                        </div>
+                    </div>
+                    <div class="form-block">
+                        <form action="url" class="form">
+                            <h1>Обратная связь</h1>
+                            <div>
+                                <p class="form-text">ФИО:</p>
+                                <input type="text" class="form__item">
+                            </div>
+                            <div>
+                                <p class="form-text">Email или Телефон:</p>
+                                <input type="text" class="form__item">
+                            </div>
+                            <div>
+                                <p class="form-text">Текст сообщения</p>
+                                <textarea class="form__item" style="height:78px"></textarea>
+                            </div>
+                        </form>
+                        <div class="form__button-block">
+                            <button class="form__button">
+                                <p>Отправить</p>
+                                <img src="button.png" alt="далее">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="info">
+                        <div class="info-blocks">
+                            <div>
+                                <div class="info-header">
+                                        <img src="cow.png" alt="cow" style="padding-right: 29px">
+                                        <h1 class="header--WHYAUSTRIA">Почему Австрия?</h1>
+                                    </div>
+                                    <div class="annotation">
+                                        <p>В мире очень мало стран, которые могли бы предложить
+                                            Вам такое разнообразие ощущений, которое дарит своим гостям Австрия</p>
+                                    </div>
+                                    <div class="info__list-block">
+                                        <h1 class="list-block__header">Основные преимущества Австрии</h1>
+                                        <ol class="list-block__list">
+                                            <li class="list-item"><span class="list-bold">Расположение</span></li>
+                                            <li class="list-item"><span class="list-bold">Безопасность</span></li>
+                                            <li class="list-item">По сравнению с Латвией и Чехией <span>легко иммигрировать</span></li>
+                                            <li class="list-item">за <span class="list-bold">325 евро в месяц</span> страховка на всю семью и право жить тут</li>
+                                        </ol>
+                                    </div>
+                            </div>
+                            <div class="info-button">
+                                <button class="read-next">
+                                    <p>Читать далее</p>
+                                    <img src="greennext.png" alt="next">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="info-blocks">
+                            <div>
+                                <div class="info-header">
+                                        <img src="boys.png" alt="boys" style="padding-right: 9px">
+                                        <h1>Преимущества работы с нами</h1>
+                                    </div>
+                                    <div class="info__list-block">
+                                        <h1 class="list-block__header">Главные достоинства нашей компании</h1>
+                                        <ol class="list-block__list">
+                                            <li class="list-item"><span class="list-bold">Оказываем консультации</span> по вопросам иммиграции, налогооблажения
+                                                ведения бухгалтерии, получения социальных льгот, мед. обслуживания и т.д.
+                                            </li>
+                                            <li class="list-item">Подскажем оптимальный способ <span class="list-bold">выполнения требований к
+                                                документам</span> гос органов
+                                            </li>
+                                            <li class="list-item">Помощь в <span class="list-bold">оформлении краткосрочных виз</span>, поиске/брони отеля
+                                                или аппартаментов, аренде автомобиля
+                                            </li>
+                                            <li class="list-item">Все Ваши накладные расходы мы стремимся уменьшить,
+                                                работая <span class="list-bold">с проверенными бухгалтерами, нотариусом, судебными переводчиками</span>
+                                            </li>
+                                        </ol>
+                                    </div>
+                            </div>
+                            <div class="info-button">
+                                <button class="read-next">
+                                    <p>Читать далее</p>
+                                    <img src="greennext.png" alt="next">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news">
+                        <h1 class="news-header">Новости</h1>
+                        <div class="news-block">
+                            <div class="news-block__item">
+                                <div>
+                                    <div class="item-img">
+                                        <div class="item-date">
+                                            12.08.2012
+                                        </div>
+                                        <img src="bg1.png" alt="img">
+                                    </div>
+                                    <div class="news-block___header">
+                                        <h1>Покорение альп - слет любителей скалолазания</h1>
+                                    </div>
+                                    <div class="news-block__text">
+                                        <p>Прошел ежегодный слет любителей скалолазания</p>
+                                    </div>
+                                </div>
+                                <div class="news-block__button">
+                                    <a href="#next">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="news-block__item">
+                                <div class="item-img">
+                                    <div class="item-date">
+                                        12.08.2012
+                                    </div>
+                                    <img src="bg2.png" alt="img">
+                                </div>
+                                <div class="news-block___header">
+                                    <h1>Покорение Альп</h1>
+                                </div>
+                                <div class="news-block__text">
+                                    <p>В середине июля 2012 года прошел ежегодный слет любителей
+                                         туризма и скалолазания</p>
+                                </div>
+                                <div class="news-block__button">
+                                    <a href="#next">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="news-block__item">
+                                <div>
+                                    <div>   
+                                        <div class="item-img">
+                                            <div class="item-date">
+                                                12.08.2012
+                                            </div>
+                                            <img src="bg3.png" alt="img">
+                                        </div>
+                                        <div class="news-block___header">
+                                            <h1>Покорение Альп</h1>
+                                        </div>
+                                        <div class="news-block__text">
+                                            <p>Прошел ежегодный слет любителей скалолазания</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-block__button">
+                                    <a href="#next">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="news-block__item">
+                                <div>
+                                    <div class="item-img">
+                                        <div class="item-date">
+                                            12.08.2012
+                                        </div>
+                                        <img src="bg1.png" alt="img">
+                                    </div>
+                                    <div class="news-block___header">
+                                        <h1>Покорение Альп</h1>
+                                    </div>
+                                    <div class="news-block__text">
+                                        <p>Прошел ежегодный слет любителей скалолазания</p>
+                                    </div>
+                                </div>
+                                <div class="news-block__button">
+                                    <a href="#next">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="news-block__item">
+                                <div>
+                                    <div class="item-img">
+                                        <div class="item-date">
+                                            12.08.2012
+                                        </div>
+                                        <img src="bg2.png" alt="img">
+                                    </div>
+                                    <div class="news-block___header">
+                                        <h1>Покорение Альп</h1>
+                                    </div>
+                                    <div class="news-block__text">
+                                        <p>Прошел ежегодный слет любителей скалолазания</p>
+                                    </div>
+                                </div>
+                                <div class="news-block__button">
+                                    <a href="#next">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="news-follow" href="#follow">
+                                <p>Подписаться на рассылку новостей</p>
+                                <img src="button.png" alt="follow">
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container" style="border-top: 10px solid #e3e3e3">
+            <div class="footer">
+                <div class="copyright">
+                    <p>© 2012 site.ru</p>
+                </div>
+                <div class="footer-menu">
+                    <ul class="footer-menu__list">
+                        <li class="footer-menu__item"><a class="footer-menu__link" href="#home">Главная</a></li>
+                        <li class="footer-menu__item"><a class="footer-menu__link" href="#aboutus">О компании</a></li>
+                        <li class="footer-menu__item"><a class="footer-menu__link" href="#services">Услуги</a></li>
+                        <li class="footer-menu__item"><a class="footer-menu__link" href="#pricing">Цены</a></li>
+                        <li class="footer-menu__item"><a class="footer-menu__link" href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-number">
+                    <p>+386 (0)1 6001 530</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="main.js"></script>
 </html>
